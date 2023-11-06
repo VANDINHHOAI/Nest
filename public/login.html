@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My account - Nest</title>
     <link rel="stylesheet" href="../public/css/output.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="./img/Logo/logo-tap.png" type="image/x-icon">
 </head>
@@ -419,28 +421,19 @@
         
         <!-- Content-section -->
         <!-- container -->
-        <div>
-            <div class="w-full">
-                <div class="w-full pt-20 pb-[50px] md:px-72">
-                    <div class="px-[15px] w-full block">
-                        <h2 class="text-center text-[40px] text-[#253d4e] font-bold mb-5">Log in</h2>
-                        <form class="p-5 w-full rounded-3xl border block">
-                            <label for="email" class="block mb-[5px] text-[#253d4e] font-semibold">Username or email address <span class="text-red-500 font-semibold">*</span></label>
-                            <input id="email" class="w-full h-16 px-5 border border-[#3bb77e] outline-none mb-4 rounded-lg" type="text" placeholder="Your email">
-                            <label for="password" class="block mb-[5px] text-[#253d4e] font-semibold">Password <span class="text-red-500 font-semibold">*</span></label>
-                            <input id="password" class="w-full h-16 px-5 border border-[#3bb77e] outline-none mb-4 rounded-lg" type="password" placeholder="Your password">
-                            <div class="flex items-center mb-5 gap-x-5">
-                                <button class="bg-[#3bb77e] px-5 py-3 text-white font-semibold rounded-md hover:bg-yellow-500
-                                transition duration-500 ease-in-out">
-                                    <a href="#">Log in</a>
-                                </button>
-                                <div class="flex items-center gap-x-1">
-                                    <input class="w-6 h-6" type="checkbox">
-                                    <span>Remember me</span>
-                                </div>
-                            </div>
-                            <div class="text-[#3bb77e] hover:text-red-500 transition duration-300 ease-in-out">
-                                <p><a href="#">Lost your password?</a></p>
+        <div class="lg-container">
+            <div class="lg-wrapper">
+                <div class="lg-box">
+                    <div class="lg-content">
+                        <h2 class="lg-content__title">Login</h2>
+                        <form class="lg-form">
+                            <label for="email" class="lg-form__lable-email">Email</label>
+                            <input id="email" type="text" class="lg-form__input-email" placeholder="Your email">
+                            <label for="password" class="lg-form__lable-password">Password</label>
+                            <input id="password" type="text" class="lg-form__input-password" placeholder="Your password">
+    
+                            <div class="lg-form-action">
+                                <button class="lg-btn"><a href="#">Register</a></button>
                             </div>
                         </form>
                     </div>

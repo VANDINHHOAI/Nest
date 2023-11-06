@@ -1,0 +1,171 @@
+/* REGISTER CSS SECTION*/
+.rgt-container {
+    width: 100%;
+}
+
+.rgt-wrapper {
+    width: 100%;
+}
+
+.rgt-box {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.rgt-content {
+    padding: 0 15px;
+    width: 100%;
+    display: block;
+}
+
+.rgt-content__title {
+    text-align: center;
+    font-size: 40px;
+    color: #253d4e;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.rgt-form {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+}
+
+.rgt-form__lable-email,
+.rgt-form__lable-password,
+.rgt-form__lable-cf-password {
+    display: block;
+    margin-bottom: 5px;
+    color: #253d4e;
+    font-weight: 600;
+}
+
+.rgt-form__input-email,
+.rgt-form__input-password,
+.rgt-form__input-cf-password {
+    width: 100%;
+    height: 64px;
+    padding: 0 20px;
+    color: #253d4e;
+    border: 1px solid #3bb77e;
+    outline: none;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.rgt-form-action {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 0 20px;
+}
+
+.rgt-btn{
+    background: #3bb77e;
+    padding: 12px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: .5s ease-in-out;
+}
+
+.rgt-btn:hover {
+    background: yellow;
+}
+
+.rgt-form-action span:hover {
+    color: #3bb77e;
+}
+
+
+
+
+
+/* LOGIN CSS SECTION*/
+.lg-container {
+    width: 100%;
+}
+
+.lg-wrapper {
+    width: 100%;
+}
+
+.lg-box {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.lg-content {
+    padding: 0 15px;
+    width: 100%;
+    display: block;
+}
+
+.lg-content__title {
+    text-align: center;
+    font-size: 40px;
+    color: #253d4e;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.lg-form {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+}
+
+.lg-form__lable-email,
+.lg-form__lable-password,
+.lg-form__lable-cf-password {
+    display: block;
+    margin-bottom: 5px;
+    color: #253d4e;
+    font-weight: 600;
+}
+
+.lg-form__input-email,
+.lg-form__input-password,
+.lg-form__input-cf-password {
+    width: 100%;
+    height: 64px;
+    padding: 0 20px;
+    color: #253d4e;
+    border: 1px solid #3bb77e;
+    outline: none;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.lg-form-action {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 0 20px;
+}
+
+.lg-btn{
+    width: 100%;
+    background: #3bb77e;
+    padding: 12px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: .5s ease-in-out;
+}
+
+.lg-btn:hover {
+    background: yellow;
+}
+
+.lg-form-action span:hover {
+    color: #3bb77e;
+}

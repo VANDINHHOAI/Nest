@@ -1,0 +1,23 @@
+/* PC */
+@media (min-width: 64em) {
+    .rgt-box,
+    .lg-box {
+        padding: 80px 288px 50px;
+    }
+}
+
+/* Tablet && Mobile */
+@media (max-width: 63.9375em) {
+    
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    
+}
