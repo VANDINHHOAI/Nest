@@ -53,9 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function getProductById(productId) {
   // Giả sử có một danh sách sản phẩm với thông tin
   const products = [
-    { id: '1', name: 'Foster Farms Takeout Crispy Classic', price: '$17.85', price_old:'$19.80', image:'./img/Products/product-1.jpg'},
+    { id: '1', name: 'Foster Farms Takeout Crispy Classic', price: '$17.85', price_old:'$19.80', image:'../public/img/Products/product-1.jpg'},
     
-    { id: '2', name: 'Organic Cage Grade A Large Eggs', price: '$21.00', price_old:'$24.00', image:'./img/Products/product-2.jpg'},
+    { id: '2', name: 'Organic Cage Grade A Large Eggs', price: '$21.00', price_old:'$24.00', image:'../public/img/Products/product-2.jpg'},
     
     { id: '3', name: 'Haagen Caramel Cone Ice Cream Boxed', price: '$22.85', price_old:'$24.80', image:'./img/Products/product-3.jpg'},
     

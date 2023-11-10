@@ -1,3 +1,4 @@
+
 // Section Slide
 let slideIndex = 0;
 showSlides();
@@ -13,27 +14,6 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 10000);
 }
-
-// Slide categories
-const btnPrev = document.getElementById('btnPrev');
-const btnNext = document.getElementById('btnNext');
-
-const btnLeft = document.querySelector('.btn-left');
-const btnRight = document.querySelector('.btn-right');
-const slide = document.querySelector('.slide-show');
-const listCard = document.querySelector('.list-card');
-const widthCard = document.querySelector('.slide-item').offsetWidth;
-let current = 0;
-
-
-btnPrev.addEventListener('click', function() {
-    console.log(widthCard);
-    current++;
-    listCard.style.transform = `translateX(${widthCard * -1 * current + 20}px)`;
-    listCard.style.transition = `transform 500ms ease-in`;
-});
-
-
 
 
 // Shopping cart and Checkout
@@ -133,7 +113,7 @@ productInput.addEventListener('keyup', function(event) {
         const productName = productInput.value;
 
         if(products.includes(productName)) {
-            window.location.href = `Shop.html?search=${productName}`;
+            window.location.href = `shop.html?search=${productName}`;
         }else {
             alert('Product not found. Please try again.');
         }
